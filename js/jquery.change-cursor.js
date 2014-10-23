@@ -61,7 +61,7 @@
 
         if ( !( IE && version < 9 ) ) {
             if ( $cursor.length == 0 ) {
-                $cursor = $('<svg id="custom-cursor"></svg>')
+                $cursor = $('<svg id="custom-cursor"></svg>')// svg - hack for rendering performance 
                     .css({
                         background: 'url("' + cursorPicUrl + '") no-repeat left top',
                         position:   'fixed',
