@@ -63,8 +63,6 @@
             if ( $cursor.length == 0 ) {
                 $cursor = $('<svg id="custom-cursor"></svg>')
                     .css({
-                        //width:      '128px',//todo
-                        //height:     '135px',
                         background: 'url("' + cursorPicUrl + '") no-repeat left top',
                         position:   'fixed',
                         display:    'block',
