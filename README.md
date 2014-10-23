@@ -26,7 +26,6 @@ then in your code do:
 $('.my-class').changeCursor('myurl/img.png', dx, dy, zIndex);
 ```
 
-
 dx, dy - coordinates of picture center 
 * dx - from left
 * dy - from top
@@ -35,7 +34,6 @@ dx, dy - coordinates of picture center
 ###To do
 * Chrome performance
 * Different types of cursors support (.cur, char)
-
 
 ####Designed by
  [WebBrother](http://webbrother.net/)
