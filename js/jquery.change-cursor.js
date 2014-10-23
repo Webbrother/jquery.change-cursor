@@ -78,9 +78,8 @@
             this.on( "mouseenter", inFunction )
                 .on( "mouseleave", outFunction )
                 .on( "mousemove",  moveFunction)
-                .css({
-                    cursor: 'none'
-                });
+                .css( 'cursor', 'none')
+                .children().css( 'cursor', 'none');
         }
 
         return this;
