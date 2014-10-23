@@ -24,11 +24,11 @@
 
         if (M[1] === 'Chrome') {
             tem = ua.match(/\bOPR\/(\d+)/);
-            if (tem != null) return 'Opera ' + tem[1];
+            if (tem !== null) return 'Opera ' + tem[1];
         }
 
         M = M[2] ? [M[1], M[2]] : [navigator.appName, navigator.appVersion, '-?'];
-        if ((tem = ua.match(/version\/(\d+)/i)) != null) M.splice(1, 1, tem[1]);
+        if ((tem = ua.match(/version\/(\d+)/i)) !== null) M.splice(1, 1, tem[1]);
         return M.join(' ');
     })();
 
@@ -60,7 +60,7 @@
         var cursor  =   $cursor[0];
 
         if ( !( IE && version < 9 ) ) {
-            if ( $cursor.length == 0 ) {
+            if ( $cursor.length === 0 ) {
                 $cursor = $('<svg id="custom-cursor"></svg>')// svg - hack for rendering performance 
                     .css({
                         background: 'url("' + cursorPicUrl + '") no-repeat left top',
@@ -84,6 +84,6 @@
         }
 
         return this;
-    }
+    };
 
 })(jQuery);

@@ -1,8 +1,12 @@
 jQuery changeCursor plugin
 ===
 
-Plugin change cursor before element. 
+Plugin change cursor before element. Useful when you need to use image bigger that 32x32px as cursor.
 Working with all browsers except IE<9
+
+###Demo
+[Link](http://jsbin.com/bojegu)
+
 
 ###How to Use?
 
