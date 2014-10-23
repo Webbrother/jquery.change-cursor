@@ -79,7 +79,7 @@
 
             this.on( "mouseenter", inFunction )
                 .on( "mouseleave", outFunction )
-                .on( "mousemove",  moveFunction)//todo change to $.on
+                .on( "mousemove",  moveFunction)
                 .css({
                     cursor: 'none'
                 });
