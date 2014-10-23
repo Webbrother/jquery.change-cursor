@@ -6,7 +6,7 @@
 //
 // dx, dy - coordinates of picture center. dx from left, dy from top.
 //
-// Designed by Vitaly Komarov v-a-komarov@yandex.ru
+// Designed by WebBrother.net
 
 (function ($) {
     var browser = (function () {
