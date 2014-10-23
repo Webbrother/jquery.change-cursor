@@ -1,0 +1,22 @@
+#test-id1 {
+     height: 200px;
+     border: 3px dashed #CCCCCC;
+     background: #FFFFFF;
+     padding: 20px;
+}
+#test-id2 {
+    margin: 50px;
+    height: 100px;
+    border: 3px dashed #cc6b68;
+    background: #FFFFFF;
+    padding: 20px;
+}
+
+.test-class {
+    float: left;
+    margin: 50px;
+    padding: 20px;
+    border: 3px dashed #6ccc51;
+    height: 200px;
+    width: 200px;
+}
