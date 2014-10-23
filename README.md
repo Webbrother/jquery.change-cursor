@@ -16,7 +16,7 @@ changeCursor depends on jQuery. Include them both in end of your HTML code:
 then in your code do:
 
 ```js
-$('.my-class').changeCursor('myurl/img.png, dx, dy, zIndex);
+$('.my-class').changeCursor('myurl/img.png', dx, dy, zIndex);
 ```
 
 
