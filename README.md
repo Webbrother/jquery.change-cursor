@@ -20,8 +20,8 @@ $('.my-class').changeCursor('myurl/img.png', dx, dy, zIndex);
 ```
 
 
-dx, dy - coordinates of picture center, dx from left, dy from top.
-zIndex - z-index css style for cursor
+dx, dy - coordinates of picture center, dx from left, dy from top,
+zIndex - z-index css style for cursor.
 
 ###To do
 * Chrome performance
