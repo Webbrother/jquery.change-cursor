@@ -34,6 +34,3 @@ dx, dy - coordinates of picture center
 ###To do
 * Chrome performance
 * Different types of cursors support (.cur, char)
-
-####Designed by
- [WebBrother](http://webbrother.net/)

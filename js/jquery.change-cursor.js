@@ -50,9 +50,9 @@
         }
 
         //defaults
-        dx = dx ? dx : 0;
-        dy = dy ? dy : 0;
-        zIndex = zIndex ? zIndex : 1000;
+        dx = dx || 0;
+        dy = dy || 0;
+        zIndex = zIndex || 1000;
 
         var IE      =   browser.indexOf('IE') != -1;
         var version =   +browser.replace( /^\D+/g, '');
