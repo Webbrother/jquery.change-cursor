@@ -17,9 +17,7 @@
 
         if (/trident/i.test(M[1])) {
             tem = /\brv[ :]+(\d+)/g.exec(ua) || [];
-            return { fullName: 'IE ' + (tem[1] || ''),
-                browser: 'IE',
-                version: (tem[1] || '')};
+            return 'IE ' + (tem[1] || '');
         }
 
         if (M[1] === 'Chrome') {
