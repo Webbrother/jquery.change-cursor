@@ -2,7 +2,7 @@ jQuery changeCursor plugin
 ===
 
 Plugin changes cursor to image before element. 
-Useful when you need to use image bigger that 128x128px as cursor.
+Useful when you need to use image bigger than 128x128px as cursor.
 
 ###Browsers support:
 Working with all browsers except IE<9
