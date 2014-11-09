@@ -56,10 +56,11 @@
         var version =   +browser.replace( /^\D+/g, '');
         var $cursor =   $('#custom-cursor');
         var cursor  =   $cursor[0];
+        var excluded=   'a, input';
 
         if ( !( IE && version < 9 ) ) {
             if ( $cursor.length === 0 ) {
-                $cursor = $('<svg id="custom-cursor"></svg>')// svg - hack for rendering performance 
+                $cursor = $('<svg id="custom-cursor"></svg>')// svg - hack for rendering performance
                     .css({
                         background: 'url("' + cursorPicUrl + '") no-repeat left top',
                         position:   'fixed',
@@ -77,7 +78,13 @@
                 .on( "mouseleave", outFunction )
                 .on( "mousemove",  moveFunction)
                 .css( 'cursor', 'none')
-                .children().css( 'cursor', 'none');
+                .find('*')
+                .not( excluded )
+                .css( 'cursor', 'none');
+
+            $(excluded)
+                .on( "mouseenter", outFunction )
+                .on( "mouseleave", inFunction)
         }
 
         return this;
