@@ -78,13 +78,11 @@
                 .on( "mouseleave", outFunction )
                 .on( "mousemove",  moveFunction)
                 .css( 'cursor', 'none')
-                .find('*')
-                .not( excluded )
                 .css( 'cursor', 'none');
 
             $(excluded)
                 .on( "mouseenter", outFunction )
-                .on( "mouseleave", inFunction)
+                .on( "mouseleave", inFunction);
         }
 
         return this;
